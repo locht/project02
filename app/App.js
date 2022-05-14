@@ -1,12 +1,20 @@
 import React from 'react';
 import { View, Text, SafeAreaView } from 'react-native';
-import Flexboxs from './Flexbox';
+import {
+    Modals,
+    Flexboxs,
+    ActivityIndicators,
+    FlatLists,
+    Images,
+    ScrollViews,
+    Switchs
+} from './components';
 
 export default class App extends React.Component {
     render() {
         return (
             <SafeAreaView style={{ flex: 1 }}>
-                <Flexboxs />
+                <Switchs />
             </SafeAreaView>
         );
     }
