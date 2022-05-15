@@ -9,12 +9,13 @@ import {
     ScrollViews,
     Switchs
 } from './components';
+import { Login } from './container';
 
 export default class App extends React.Component {
     render() {
         return (
             <SafeAreaView style={{ flex: 1 }}>
-                <Switchs />
+                <Login />
             </SafeAreaView>
         );
     }
